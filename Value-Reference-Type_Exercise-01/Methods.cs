@@ -31,7 +31,7 @@ namespace Value_Reference_Type_Exercise_01
 
         public static void ChangeReferenceType(List<int> list)
         {
-            list.RemoveAll(x => x < 4);
+            list.Clear();
             list.Add(100);
             list.Add(200);
             list.Add(300);
